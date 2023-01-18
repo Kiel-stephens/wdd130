@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #81482d;
     text-decoration: none;
+    padding: 5px 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -17,11 +19,14 @@ main section {
     text-align: center;
 }
 #background {
-    height: 725;  
+    height: 725px;  
 }
 body {
     background-color: #cf971b;
+    font-family: Roboto Condensed, Arial, sans-serif;
+    font-size: 22px;
     margin: 0;
+    padding: 0;
 }
 header {
     background-color:#ecd68c;
@@ -34,6 +39,10 @@ nav a:hover {
     background-color: #81482d;
     color: #eeece7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #5994bc;
@@ -44,22 +53,32 @@ nav a:hover {
 }
 .msg {
     background-color: #ecd68c;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #ecd68c;
     color: blue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #31190d;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: white;
 }
 .msg h2 {
     color: #81482d;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .msg p {
     color: #3d1b0b;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: blue;
@@ -71,6 +90,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -80,10 +100,28 @@ footer a:hover {
 }
 footer p {
     padding: 25px;
-    color: blue;
+    color: black;
     font-size: 20px;
     margin: 20px auto;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #81482d;
+}
+main section img {
+    box-sizing: border-box;
 }
