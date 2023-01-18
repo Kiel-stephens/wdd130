@@ -20,7 +20,8 @@ main section {
     height: 725;  
 }
 body {
-    background-color: #cf971b; 
+    background-color: #cf971b;
+    margin: 0;
 }
 header {
     background-color:#ecd68c;
@@ -52,7 +53,7 @@ footer {
     color: #31190d;
 }
 h4 {
-    color: #ffe9df;
+    color: white;
 }
 .msg h2 {
     color: #81482d;
@@ -78,7 +79,10 @@ footer a:hover {
     width: 100%;
 }
 footer p {
-    font-size: 1.2em;
+    padding: 25px;
+    color: blue;
+    font-size: 20px;
+    margin: 20px auto;
 }
 footer p a:hover {
     text-decoration: underline;
