@@ -5,7 +5,7 @@
 }
 nav a {
     text-align: center;
-    color: #81482d;
+    color: #dfc48b;
     text-decoration: none;
     padding: 5px 35px;
 }
@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 header {
-    background-color:#ecd68c;
+    background-color:#ecd58c00;
     display: grid;
     grid-template-columns: 150px auto;
 }
