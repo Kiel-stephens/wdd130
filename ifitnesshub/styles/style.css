@@ -223,3 +223,69 @@ footer p a:hover {
     color: #003049;
     text-shadow: 1px 1px 4px black;
 }
+.classes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+}
+.classes-head {
+    grid-column: 1/2;
+    grid-row: 1/2; 
+    font-size: 150%;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin: 50px 50px 0px -20px;
+    color: #780000;
+    text-shadow: 2px 2px 5px black;
+}
+.classes-note {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 0px 20px 0px 50px;
+    margin: 50px 50px 0px -50px;
+    font-size: 150%;
+    color: #003049;
+    text-align: justify;
+    text-shadow: 1px 1px 4px black;
+}
+.classes-img {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: 20px 0px 40px 0px;
+}
+.weight {
+    padding: 0px 10px 0px 10px;
+    margin: 20px 10px 0px 30px;
+    
+}
+.yoga {
+    padding: 0px 10px 0px 10px;
+    margin: 20px 10px 0px 30px;
+}
+.basic {
+    padding: 0px 10px 0px 10px;
+    margin: 20px 30px 0px 30px;
+}
+.cardio {
+    padding: 0px 10px 0px 10px;
+    margin: -90px 10px -70px 30px;
+}
+.gym {
+    padding: 0px 10px 0px 10px;
+    margin: -90px 10px -70px 30px;
+}
+.nutrition {
+    padding: 0px 10px 0px 10px;
+    margin: -90px 30px -70px 30px;
+}
+.classes h4 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: #780000;
+    text-shadow: 2px 2px 5px black;
+}
+.classes p {
+    color: #003049;
+    font-size: 120%;
+    text-align: justify;
+    text-shadow: 1px 1px 4px black;
+}
